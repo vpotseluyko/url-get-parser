@@ -1,6 +1,6 @@
 {
   "name": "url-get-parser",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple tool to deal with url get parameters without reloading whole page",
   "main": "sources/main.js",
   "scripts": {

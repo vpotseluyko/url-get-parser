@@ -1,5 +1,5 @@
 # url-get-parser 
-## version 1.1.0
+## version 1.1.1
 
 Url-get-parser is a very simple and minimal-styled plugin for 
 working with url get params.

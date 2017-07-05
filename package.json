@@ -2,9 +2,11 @@
   "name": "url-get-parser",
   "version": "1.1.1",
   "description": "A simple tool to deal with url get parameters without reloading whole page",
-  "main": "sources/main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015 sources/main.js -o index.js",
+    "prepublish": "npm run compile && webpack"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
   "name": "url-get-parser",
   "version": "1.0.3",
   "description": "A simple tool to deal with url get parameters without reloading whole page",
-  "main": "index.js",
+  "main": "sources/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +18,7 @@
     "parse"
   ],
   "author": "vpotseluyko",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
@@ -26,7 +26,6 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "expose-loader": "^0.7.3",
-    "mocha": "^3.4.2",
     "webpack": "^3.0.0"
   }
 }

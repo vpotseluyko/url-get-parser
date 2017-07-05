@@ -79,7 +79,7 @@ __webpack_require__(1);
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["urlGetParser"] = __webpack_require__(3);
+/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["ugp"] = __webpack_require__(3);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),

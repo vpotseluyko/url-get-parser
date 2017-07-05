@@ -1,11 +1,14 @@
 # url-get-parser 
-## version 1.0.3
+## version 1.1.0
 
 Url-get-parser is a very simple and minimal-styled plugin for 
 working with url get params.
-It's styled for using as node module. 
-For frontend usage use with `webpack.ProvidePlugin`  
- 
+
+## install
+`npm i url-get-parser`
+of you can use min version from `dist/` folder
+it will provide you `ugp` object in global scope
+
 Functionality:
 1) Receive GET url params as an object name - value 
 2) Add new GET params to url
@@ -21,7 +24,7 @@ Functionality:
       
 **Example:** 
 ```javascript
-console.log(urlGetParser.get_url_params("?get=123&abc=123"));
+console.log(ugp.get_url_params("?get=123&abc=123"));
 // { get: '123', abc: '123' }
 ```
        
@@ -54,7 +57,7 @@ console.log(urlGetParser.get_url_params("?get=123&abc=123"));
  **Example:**
  ```javascript
  
-console.log(urlGetParser.replace_url_value([{p: 2}, {status: 1}, {get: null}],
+console.log(ugp.replace_url_value([{p: 2}, {status: 1}, {get: null}],
 {url: '/somepath/?p=123&abc=123&get=no'}));
 // /somepath/?p=2&abc=123&status=1
  ```
